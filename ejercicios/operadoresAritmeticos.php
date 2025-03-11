@@ -13,21 +13,4 @@ echo "La resta de los números es: $resta <br>";
 echo "La multiplicación de los números es: $multiplicacion <br>";
 echo "La división de los números es: $division <br>";
 
-?><!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-
-<h3>Formulario</h3>
-    <form action="operadoresNumericios.php" method="post">
-        <input type="text" name="numero1" placeholder="Ingrese un numero">
-        <input type="text" name="numero2" placeholder="Ingrese un numero">
-        <input type="submit" value="Enviar">
-    </form>
-
-</body>
-</html>
+?>
