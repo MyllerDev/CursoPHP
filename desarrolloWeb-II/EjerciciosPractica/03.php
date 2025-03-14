@@ -43,6 +43,9 @@ if ($_POST) {
     } else if ($cant > 40) {
         $total = ($cant * $precioUnidad) - (($cant * $precioUnidad) * 0.4);
         echo 'Su total a pagar es : $' . $total;
+    }else {
+        echo 'Su total a pagar es : $'.($cant * $precioUnidad);
+
     }
 }
 
