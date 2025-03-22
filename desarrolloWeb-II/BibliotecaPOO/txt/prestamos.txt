@@ -1,0 +1,4 @@
+ID Usuario: 1
+ID Libro: 1
+Fecha de Préstamo: 2025-03-21
+-------------------------

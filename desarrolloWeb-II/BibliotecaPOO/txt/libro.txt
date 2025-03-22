@@ -1,0 +1,25 @@
+ID: 1
+Título: curso php
+Autor: Pepe
+Materia: tecnología
+-------------------------
+ID: 2
+Título: aurora
+Autor: codeando
+Materia: historia
+-------------------------
+ID: 3
+Título: Rosas negras
+Autor: Lupe
+Materia: amor
+-------------------------
+ID: 4
+Título: carro rojo
+Autor: urelio
+Materia: terror
+-------------------------
+ID: 5
+Título: pyhon
+Autor: lopez
+Materia: tecnología
+-------------------------

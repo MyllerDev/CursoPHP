@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/busqueda.css">
+    <title>Buscar Libro</title>
+</head>
+<body>
+    <h2>Buscar Libro</h2>
+
+    <form method="GET" action="../php/busqueda.php">
+        <label for="criterio_busqueda">Buscar por:</label>
+        <select name="criterio_busqueda" id="criterio_busqueda">
+            <option value="ID">ID</option>
+            <option value="Título">Título</option>
+            <option value="Autor">Autor</option>
+            <option value="Materia">Materia</option>
+        </select>
+        <br>
+        <label for="valor_busqueda">Valor de búsqueda:</label>
+        <input type="text" name="valor_busqueda" id="valor_busqueda" required>
+        <br>
+        <button type="submit">Buscar</button>
+    </form>
+    
+
+</body>
+</html>

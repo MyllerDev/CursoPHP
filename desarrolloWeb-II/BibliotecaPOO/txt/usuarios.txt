@@ -1,0 +1,35 @@
+ID Usuario: 33
+Nombre Usuario: fulanito
+Edad: 55
+Correo: correo@correo.com
+-------------------------
+ID Usuario: 5
+Nombre Usuario: fulanito
+Edad: 66
+Correo: correo@correo.com
+-------------------------
+ID Usuario: 6
+Nombre Usuario: fulanito
+Edad: 20
+Correo: correo@correo.com
+-------------------------
+ID Usuario: 90
+Nombre Usuario: lola
+Edad: 98
+Correo: correo@correo.com
+-------------------------
+ID Usuario: 568
+Nombre Usuario: fulanito
+Edad: 45
+Correo: correo@correo.com
+-------------------------
+ID Usuario: 5555
+Nombre Usuario: pacho
+Edad: 45
+Correo: correo@correo.com
+-------------------------
+ID Usuario: 777
+Nombre Usuario: jh
+Edad: 45
+Correo: correo@correo.com
+-------------------------

@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    margin: 10px;
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+/* Estilo para el título de la sección */
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para el selector (select) */
+label {
+    font-size: 18px;
+    margin-right: 10px;
+    color: #333;
+}
+
+/* Estilo para el dropdown (select) */
+select {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    width: 200px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+/* Estilo para los contenedores de las listas (libros, usuarios, préstamos) */
+div {
+    display: none; /* Por defecto, ocultamos los contenedores */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Estilo para las tablas dentro de los contenedores */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+/* Estilo para las celdas de la tabla */
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Estilo de las filas de la tabla */
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Visibilidad de los contenedores cuando se seleccionan */
+#libros, #usuarios, #prestamos {
+    display: block;
+}
+
+

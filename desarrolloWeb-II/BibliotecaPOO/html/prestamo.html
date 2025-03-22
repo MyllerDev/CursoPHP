@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/prestamo.css">
+    <title>Registrar Préstamo</title>
+</head>
+<body>
+    <h2>Registrar Préstamo de Libro</h2>
+    <form action="../php/prestamo.php" method="POST">
+        <label for="id_usuario">ID Usuario:</label>
+        <input type="number" id="id_usuario" name="id_usuario" required><br><br>
+
+        <label for="id_libro">ID Libro:</label>
+        <input type="number" id="id_libro" name="id_libro" required><br><br>
+
+        <label for="fecha_prestamo">Fecha de Préstamo:</label>
+        <input type="date" id="fecha_prestamo" name="fecha_prestamo" required><br><br>
+
+        <button type="submit">Registrar Préstamo</button>
+    </form>
+</body>
+</html>
+
